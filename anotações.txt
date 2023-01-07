@@ -12,3 +12,9 @@ values(
    'notebook'
    , 'notebook samsung'
 );
+
+insert into produto (nome, descricao)
+values(
+   'geladeira'
+   , 'geladeira azul'
+);
