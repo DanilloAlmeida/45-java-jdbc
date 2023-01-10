@@ -18,3 +18,8 @@ values(
    'geladeira'
    , 'geladeira azul'
 );
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '0843';
+flush privileges;
+
+SELECT user FROM mysql.user;
