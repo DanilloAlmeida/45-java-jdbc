@@ -6,10 +6,11 @@ public class TestaConexao2 {
 
 	public static void main(String[] args) throws SQLException {
 
-		Connection conn = DriverManager.
-				getConnection("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC", "root", "0843");
+		Connection con = DriverManager.
+		getConnection("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC", "root", "0843");
 
-		conn.close();
+		con.close();
+		System.out.println("fechou con em TestaConexao2");
 	}
 
 }
